@@ -36,30 +36,6 @@ const ProjectList = () => {
       status: "Work In Progress",
       assignedTo: "Techzaa Studio",
     },
-    {
-      id: 5,
-      name: "Velonic Admin v1.3",
-      startDate: "01/01/2015",
-      dueDate: "31/05/2015",
-      status: "Coming soon",
-      assignedTo: "Techzaa Studio",
-    },
-    {
-      id: 6,
-      name: "Velonic Admin v1.3",
-      startDate: "01/01/2015",
-      dueDate: "31/05/2015",
-      status: "Coming soon",
-      assignedTo: "Techzaa Studio",
-    },
-    {
-      id: 7,
-      name: "Velonic Admin v1.3",
-      startDate: "01/01/2015",
-      dueDate: "31/05/2015",
-      status: "Cool",
-      assignedTo: "Techzaa Studio",
-    },
   ];
 
   // State for projects and UI state

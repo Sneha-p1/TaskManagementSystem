@@ -8,7 +8,11 @@ const Home = () => {
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="navbar-logo">
-          <img src="/src/assets/Images/Icon.jpeg" alt="Task Management Logo" className="logo" />
+          <img
+            src="/src/assets/Images/Icon.jpeg"
+            alt="Task Management Logo"
+            className="logo"
+          />
           <h1>TaskManager</h1>
         </div>
 
@@ -33,9 +37,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="hero-section">
-        <h1 className="hero-title">
-          Task Management System
-        </h1>
+        <h1 className="hero-title">Task Management System</h1>
         <p className="hero-subtitle">
           Prioritize. Organize. Manage. Repeat. With our task management
           software, your days of burnout are behind you. Spend more time

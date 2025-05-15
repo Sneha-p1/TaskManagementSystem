@@ -42,8 +42,8 @@ function App() {
 
       {/* <Routes>{allRoutes}</Routes> */}
       <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/admin-dashboard" element={<AdminDashboard />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/admin-dashboard" element={<AdminDashboard />} />
         <Route path="/sign-up" element={<CommonSignUp />} />
         <Route path="/project-list" element={<ProjectList />} />
         {/* <Route path="/count-users" element={<CountUsers />} /> */}
