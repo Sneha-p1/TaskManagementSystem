@@ -466,3 +466,153 @@ body {
   color: #aaa;
   font-size: 0.9rem;
 }
+
+/* Sidebar Styles */
+.sidebar {
+  width: 260px;
+  background: #202940;
+  color: #c3cbe4;
+  min-height: 100vh;
+  padding-top: 0;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-header {
+  padding: 32px 0 16px 32px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  margin-bottom: 8px;
+}
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #64c5b1 60%, #2d1b69 100%);
+  border-radius: 8px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.logo-text {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.sidebar-section {
+  padding: 18px 0 8px 32px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7e8bb6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sidebar-main {
+  margin-top: 10px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.sidebar-menu li {
+  display: flex;
+  align-items: center;
+  padding: 10px 24px 10px 32px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #c3cbe4;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  position: relative;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-menu li.active, .sidebar-menu li:hover {
+  background: #232e4a;
+  color: #64c5b1;
+  border-left: 3px solid #64c5b1;
+}
+
+.sidebar-icon {
+  font-size: 18px;
+  margin-right: 16px;
+  color: #7e8bb6;
+  min-width: 20px;
+}
+
+.sidebar-menu li.active .sidebar-icon,
+.sidebar-menu li:hover .sidebar-icon {
+  color: #64c5b1;
+}
+
+.sidebar-arrow {
+  margin-left: auto;
+  color: #7e8bb6;
+  font-size: 18px;
+}
+
+.sidebar-badge {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.sidebar-badge.blue {
+  background: #2d8cff;
+  color: #fff;
+}
+
+.sidebar-badge.yellow {
+  background: #ffe3a3;
+  color: #7e5b00;
+}
+
+/* Hide scroll for sidebar if needed */
+.sidebar {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Sidebar Dropdown Styles */
+.sidebar-dropdown {
+  background: #202940;
+  margin: 0 0 0 48px;
+  padding: 8px 0 8px 0;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow: none;
+  min-width: 180px;
+  position: static;
+}
+
+.sidebar-dropdown-item {
+  color: #c3cbe4;
+  padding: 7px 24px 7px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 3px;
+}
+
+.sidebar-dropdown-item:hover {
+  background: #232e4a;
+  color: #64c5b1;
+}

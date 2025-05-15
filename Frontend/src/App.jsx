@@ -6,7 +6,7 @@ import "./App.css";
 import CommonSignUp from "./pages/CommonLogin/CommonSignUp";
 import Home from "./pages/Home/Home";
 // import Navbar from "./layouts/Navbar";
-
+import AdminDashboard from "./pages/Admin/AdminDashboard";
 function App() {
   return (
     <div>
@@ -37,9 +37,11 @@ function App() {
         }}
       />
       {/* <Navbar /> */}
+
       {/* <Routes>{allRoutes}</Routes> */}
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/admin-dashboard" element={<AdminDashboard />} />
         <Route path="/sign-up" element={<CommonSignUp />} />
       </Routes>
     </div>
