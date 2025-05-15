@@ -62,7 +62,7 @@ const CountUsers = () => {
             </div>
           </div>
           <div className="stats-icon card-clients">
-            <FiUsers size={22} />
+            <FiUsers size={20} />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ const CountUsers = () => {
             </div>
           </div>
           <div className="stats-icon card-leads">
-            <FiUserCheck size={22} />
+            <FiUserCheck size={20} />
           </div>
         </div>
 
@@ -88,7 +88,7 @@ const CountUsers = () => {
             </div>
           </div>
           <div className="stats-icon card-members">
-            <FiUserPlus size={22} />
+            <FiUserPlus size={20} />
           </div>
         </div>
 
@@ -101,7 +101,7 @@ const CountUsers = () => {
             </div>
           </div>
           <div className="stats-icon card-students">
-            <FiUserX size={22} />
+            <FiUserX size={20} />
           </div>
         </div>
       </div>
