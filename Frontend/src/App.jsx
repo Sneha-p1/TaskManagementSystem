@@ -46,7 +46,7 @@ function App() {
       <Route path="/admin-dashboard" element={<AdminDashboard />} />
         <Route path="/sign-up" element={<CommonSignUp />} />
         <Route path="/project-list" element={<ProjectList />} />
-        <Route path="/count-users" element={<CountUsers />} />
+        {/* <Route path="/count-users" element={<CountUsers />} /> */}
       </Routes>
     </div>
   );
