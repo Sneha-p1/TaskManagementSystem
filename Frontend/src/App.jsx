@@ -5,6 +5,8 @@ import "./App.css";
 // import allRoutes from "./Routes";
 import CommonSignUp from "./pages/CommonLogin/CommonSignUp";
 import Home from "./pages/Home/Home";
+import ProjectList from "./components/ProjectList";
+import CountUsers from "./components/CountUsers";
 // import Navbar from "./layouts/Navbar";
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/sign-up" element={<CommonSignUp />} />
+        <Route path="/project-list" element={<ProjectList />} />
+        <Route path="/count-users" element={<CountUsers />} />
       </Routes>
     </div>
   );
